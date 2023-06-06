@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+#parent{
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+    margin: 50px;
+    position: relative;
+}
+.child1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.child2{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.child3{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.child4{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
